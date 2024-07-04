@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Number Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .result-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-box">
+        <h2>Max Number Result</h2>
+        <p>Max of <strong th:text="${num1}"></strong>, <strong th:text="${num2}"></strong>, and <strong th:text="${num3}"></strong> is <strong th:text="${max}"></strong>.</p>
+        <a href="/">Find Another</a>
+    </div>
+</body>
+</html>
